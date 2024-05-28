@@ -68,10 +68,16 @@
 /* 關於允強 */
 .about-banner {
   position: absolute;
-  top: 546px;
+  top: 550px;
   left: 0;
   width: 660px;
-  height: 420px;
+  height: 407px;
+  background-image: url(../images/pic/原彩度公司圖-05.png);
+  background-size: cover;
+  background-position: top left;
+}
+.about-banner:hover {
+  display: none;
 }
 .about-banner-img {
   /* width: 100%; */
@@ -84,7 +90,12 @@
   left: 516px;
   width: 483px;
   height: 216.5px;
-  background-image: url(../images/A首頁.png);
+  background-image: url(../images/pic/滑鼠移入前-有縫構造管-07.png);
+  background-size: cover;
+  background-position: top left;
+}
+.product-banner:hover {
+  display: none;
 }
 /* footer-banner */
 .footer-banner {
