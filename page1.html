@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./asset/css/global.css" />
+    <link rel="stylesheet" href="./asset/css/page1.css" />
+    <link href="./asset/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./asset/css/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="./asset/css/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <img src="/asset/images/A首頁.png" width="100%" />
+      <nav class="navbar navbar-light fixed-top"></nav>
+      <div class="container-fluid">
+        <div class="row mt-4">
+          <div class="col-md-12 d-flex justify-content-end">
+            <button
+              type="button"
+              class="btn btn-circle btn-outline-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            ></button>
+            <button
+              type="button"
+              class="btn btn-circle btn-outline-primary"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            ></button>
+            <button
+              type="button"
+              class="btn btn-circle btn-outline-primary"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            ></button>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12 d-flex">
+            <!-- <video width="100%" autoplay loop muted>
+              <source src="./asset/vedio/允強.mp4" type="video/mp4" />
+            </video> -->
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div
+          id="carouselExampleControlsNoTouching"
+          class="carousel slide"
+          data-bs-touch="false"
+          data-bs-interval="false"
+        >
+          banner
+          <div class="carousel-item active"></div>
+          <div class="carousel-item">
+            <video id="bannerVideo" width="100%" loop muted>
+              <source src="./asset/vedio/允強.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="banner-control">
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+          onclick="handelBannerVideo()"
+        ></button>
+      </div>
+      <div class="about-banner">about-banner</div>
+
+      <div class="product-banner">product-banner</div>
+
+      <div class="footer-banner">
+        footer-banner
+        <div
+          class="footer-text"
+          data-aos="fade-in"
+          data-aos-delay="50"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          綠色產品 環境共生
+        </div>
+      </div>
+      <button type="button" class="btn" id="btn-back-to-top">
+        <img src="./asset/images/icon/GO TOP ICON-03.png" width="90px" />
+      </button>
+    </div>
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/js/jquery-3.7.1.slim.js"></script>
+    <script src="./asset/js/aos.js"></script>
+    <script src="./asset/js/page1.js"></script>
+  </body>
+  <!-- <img src="./asset/images/pic/原彩度公司圖-05.png" class="about-banner-img" /> -->
+  <!-- Menu -->
+  <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel"
+  >
+    <div class="offcanvas-body">
+      <img src="./asset/images/pic/主選單-06.png" width="100%" alt="" />
+    </div>
+  </div>
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row search-title">
+              <div class="col-md-10 col-10">請輸入產品名稱</div>
+              <div class="col-md-2 col-2">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div id="search_area" class="d-md-flex">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="basic-addon2"
+                />
+                <span
+                  id="basic-addon2"
+                  class="input-group-text bi-search"
+                  style="font-size: 1rem; color: #0d6efd"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

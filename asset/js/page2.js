@@ -1,0 +1,3 @@
+// aos.js
+AOS.init();
+

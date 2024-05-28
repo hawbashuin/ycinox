@@ -1,0 +1,50 @@
+/* 滿版 */
+.full-screen-image2 {
+  width: 100vw; /* 設置寬度為視窗寬度 */
+  height: 100vh; /* 設置高度為視窗高度 */
+  position: relative; /* 設置相對定位 */
+  overflow: auto; /* 隱藏超出部分 */
+}
+
+.full-screen-image img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.header-button-earth {
+  position: absolute;
+  top: 38px;
+  right: 41px;
+  border-radius: 100%;
+  background-color: rgba(253, 180, 180, 0.435);
+}
+
+.header-button-earth button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('menu-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header-button-hangurber {
+  position: absolute;
+  top: 38px;
+  right: 81px;
+  border-radius: 100%;
+  background-color: rgba(253, 249, 180, 0.435);
+}
+
+.header-button-hangurber button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
