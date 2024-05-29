@@ -19,11 +19,17 @@
 
 /* 右邊側邊欄 */
 .offcanvas-end {
-  top: 40px !important;
+  top: 60px !important;
   border-left: 0 !important;
+  width: 500px !important;
 }
+
 .offcanvas {
-  background-color: transparent !important;
+  background-image: url(../images/pic/主選單-06.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  /* background-color: transparent !important; */
 }
 .offcanvas-backdrop {
   background-color: transparent !important;
@@ -72,7 +78,7 @@
   background-position: top left;
 }
 .product-banner:hover {
-  display: none;
+  opacity: 0;
 }
 /* footer-banner */
 .footer-banner {
@@ -92,9 +98,10 @@
   opacity: 0;
   font-size: 50px;
   letter-spacing: 6px;
-  margin-top: 215px;
+  margin-top: 240px;
   margin-left: 280px;
   color: #fff;
+  font-family: 'Heiti TC' !important;
 }
 
 #btn-back-to-top {
