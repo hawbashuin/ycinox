@@ -11,13 +11,23 @@
       href="./asset/css/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"
     />
     <link href="./asset/css/aos.css" rel="stylesheet" />
+    <!-- Preload image -->
+    <link rel="preload" href="./asset/images/page1.png" as="image" />
+    <!-- Prefetch image -->
+    <link rel="prefetch" href="./asset/images/pic/主選單-06.png" />
+    <link rel="prefetch" href="./asset/images/pic/原彩度公司圖-05.png" />
+    <link
+      rel="prefetch"
+      href="./asset/images/pic/滑鼠移入前-有縫構造管-07.png"
+    />
+    <link rel="prefetch" href="./asset/images/pic/企業永續發展-05.png" />
   </head>
   <body>
     <div>
       <img src="./asset/images/page1.png" width="100%" />
       <nav class="navbar navbar-light fixed-top"></nav>
       <div class="container-fluid">
-        <div class="row mt-4">
+        <div class="row header">
           <div class="col-md-12 d-flex justify-content-end">
             <button
               type="button"
@@ -39,13 +49,6 @@
               data-bs-target="#offcanvasNavbar"
               aria-controls="offcanvasNavbar"
             ></button>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-12 d-flex">
-            <!-- <video width="100%" autoplay loop muted>
-              <source src="./asset/vedio/允強.mp4" type="video/mp4" />
-            </video> -->
           </div>
         </div>
       </div>
@@ -82,7 +85,7 @@
           class="footer-text"
           data-aos="fade-in"
           data-aos-delay="50"
-          data-aos-duration="700"
+          data-aos-duration="1200"
           data-aos-easing="ease-in-out"
         >
           綠色產品 環境共生
@@ -93,7 +96,7 @@
         class="btn btn-outline-primary"
         id="btn-back-to-top"
       >
-        <img src="./asset/images/icon/GO TOP ICON-03.png" width="90px" />
+        <img src="./asset/images/icon/GO TOP ICON-03.png" width="110px" />
       </button>
     </div>
     <script src="./asset/js/bootstrap.bundle.min.js"></script>

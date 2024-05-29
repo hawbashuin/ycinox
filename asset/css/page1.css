@@ -1,5 +1,5 @@
 .a-1 {
-  width: 1024;
+  width: 1470;
   position: relative;
   /* height: 4096px; */
   background-image: url(../images/A首頁.png);
@@ -13,15 +13,16 @@
   top: 0;
   left: 0;
 }
-/* .row {
-  background-color: rgba(255, 212, 212, 0.49) !important;
-} */
+.header {
+  margin-top: 36px !important;
+  margin-right: 4px !important;
+}
 
 /* 右邊側邊欄 */
 .offcanvas-end {
-  top: 60px !important;
+  top: 80px !important;
   border-left: 0 !important;
-  width: 500px !important;
+  width: 730px !important;
 }
 
 .offcanvas {
@@ -38,12 +39,15 @@
 /* banner */
 .banner-control {
   position: absolute;
-  top: 470px;
-  left: 0;
-  padding-left: 70px;
+  top: 675px;
+  left: 90px;
+}
+.banner-control .btn {
+  width: 48px;
 }
 .banner {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
 }
@@ -51,16 +55,16 @@
 /* 關於允強 */
 .about-banner {
   position: absolute;
-  top: 550px;
+  top: 789px;
   left: 0;
-  width: 660px;
-  height: 407px;
+  width: 950px;
+  height: 584px;
   background-image: url(../images/pic/原彩度公司圖-05.png);
   background-size: cover;
   background-position: top left;
 }
 .about-banner:hover {
-  display: none;
+  opacity: 0;
 }
 .about-banner-img {
   /* width: 100%; */
@@ -69,10 +73,10 @@
 /* product-banner */
 .product-banner {
   position: absolute;
-  top: 1056px;
-  left: 516px;
-  width: 483px;
-  height: 216.5px;
+  top: 1516px;
+  left: 741px;
+  width: 693px;
+  height: 312px;
   background-image: url(../images/pic/滑鼠移入前-有縫構造管-07.png);
   background-size: cover;
   background-position: top left;
@@ -83,7 +87,7 @@
 /* footer-banner */
 .footer-banner {
   position: absolute;
-  top: 2050px;
+  top: 3002px;
   left: 0;
   width: 100%;
   height: 415px;
@@ -96,18 +100,18 @@
 /* footer-text */
 .footer-text {
   opacity: 0;
-  font-size: 50px;
+  font-size: 70px;
   letter-spacing: 6px;
-  margin-top: 240px;
-  margin-left: 280px;
+  margin-top: 254px;
+  margin-left: 415px;
   color: #fff;
   font-family: 'Heiti TC' !important;
 }
 
 #btn-back-to-top {
   position: fixed;
-  bottom: 30%;
-  right: 20px;
+  bottom: 36%;
+  right: 49px;
   display: none;
   height: 300px;
 }

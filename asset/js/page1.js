@@ -9,15 +9,15 @@ const handelBannerVideo = () => {
 // 取得 back to top 按鈕
 let backToTopBtn = document.getElementById("btn-back-to-top");
 
-// 捲軸下滑150之後出現 back to top 按鈕
+// 捲軸下滑160之後出現 back to top 按鈕
 window.onscroll = function () {
   scrollFunction();
 };
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 150 ||
-    document.documentElement.scrollTop > 150
+    document.body.scrollTop > 160 ||
+    document.documentElement.scrollTop > 160
   ) {
     backToTopBtn.style.display = "block";
   } else {

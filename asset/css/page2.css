@@ -3,42 +3,15 @@
   top: 0;
   left: 0;
 }
-/* .row {
-  background-color: rgba(255, 212, 212, 0.49) !important;
-} */
-
-/* 右邊側邊欄 */
-.offcanvas-end {
-  top: 72px !important;
-  border-left: 0 !important;
-  width: 500px !important;
-}
-
-.offcanvas {
-  background-image: url(../images/pic/主選單-06.png) !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top left;
-  /* background-color: transparent !important; */
-}
-.offcanvas-backdrop {
-  background-color: transparent !important;
-}
 
 /* banner */
-.banner-control {
-  position: absolute;
-  top: 470px;
-  left: 0;
-  padding-left: 70px;
-}
 .banner-text-section {
   position: absolute;
-  top: 275px;
-  left: 30px;
+  top: 395px;
+  left: 45px;
   z-index: 2;
-  width: 266px;
-  height: 200px;
+  width: 381px;
+  height: 290px;
   background-image: url('../images/pic/內頁\ banner-文字.png');
   background-size: cover;
   background-position: top left;
@@ -51,17 +24,18 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 596px;
+  height: 728px;
   overflow: hidden;
+  /* background-color: aqua !important; */
 }
 
 .banner-mask::before {
   content: '';
   position: absolute;
-  top: 210px;
+  top: 294px;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 60%;
   /* background-color: rgba(0, 0, 0, 0.5);  */
   background-image: url('../images/pic/內頁banner-05.png');
   background-size: cover;
@@ -77,50 +51,54 @@
 /* 中間選單 */
 .center-menu {
   position: absolute;
-  top: 570px;
+  top: 816px;
   left: 0;
   width: 100%;
   height: 420px;
 }
 .col {
-  height: 30px;
+  height: 50px;
   /* background-color: aqua; */
 }
 .center-menu-mask {
   position: absolute;
-  left: 45px;
-  width: 30px;
-  height: 30px;
+  left: 60px;
+  width: 50px;
+  height: 50px;
   background-color: #fff;
   display: none;
 }
 .center-menu-1 {
   /* position: absolute; */
   left: 45px;
-  width: 30px;
+  width: 50px;
 }
 .center-menu-2 {
-  margin-left: 13px;
-  width: 28px;
-  height: 28px;
+  margin-top: 7px;
+  margin-left: 26px;
+  width: 38px;
+  height: 38px;
   display: none;
 }
 .center-menu-3 {
-  margin-left: 30px;
-  width: 28px;
-  height: 28px;
+  margin-top: 7px;
+  margin-left: 48px;
+  width: 38px;
+  height: 38px;
   display: none;
 }
 .center-menu-4 {
-  margin-left: 15px;
-  width: 28px;
-  height: 28px;
+  margin-top: 7px;
+  margin-left: 30px;
+  width: 38px;
+  height: 38px;
   display: none;
 }
 .center-menu-5 {
-  margin-left: 10px;
-  width: 28px;
-  height: 28px;
+  margin-top: 7px;
+  margin-left: 25px;
+  width: 38px;
+  height: 38px;
   display: none;
 }
 .center-menu .btn {
@@ -130,35 +108,36 @@
 /* product-banner */
 .product-table {
   position: absolute;
-  top: 1219px;
-  right: 8px;
-  width: 70px;
-  height: 70px;
+  top: 1751px;
+  right: 14px;
+  width: 93px;
+  height: 93px;
+  /* background-color: aqua !important; */
 }
 .product-table .arrow-up {
   position: absolute;
-  margin-left: 27px;
-  width: 19px;
+  margin-left: 34px;
+  width: 28px;
   transform: rotate(270deg);
 }
 .product-table .arrow-left {
   position: absolute;
-  margin-left: 5px;
-  margin-top: 23px;
-  width: 19px;
+  margin-left: 2px;
+  margin-top: 32px;
+  width: 28px;
   transform: rotate(180deg);
 }
 .product-table .arrow-right {
   position: absolute;
-  margin-left: 50px;
-  margin-top: 23px;
-  width: 19px;
+  margin-left: 66px;
+  margin-top: 32px;
+  width: 28px;
 }
 .product-table .arrow-down {
   position: absolute;
-  margin-left: 27px;
-  margin-top: 46px;
-  width: 19px;
+  margin-left: 34px;
+  margin-top: 65px;
+  width: 28px;
   transform: rotate(90deg);
 }
 .product-table .arrow-gray:hover {
@@ -166,76 +145,77 @@
 }
 .product-table .arrow-up-red {
   position: absolute;
-  margin-left: 27px;
-  width: 19px;
+  margin-left: 34px;
+  width: 28px;
   transform: rotate(90deg);
 }
 .product-table .arrow-left-red {
   position: absolute;
-  margin-left: 5px;
-  margin-top: 23px;
-  width: 19px;
+  margin-left: 2px;
+  margin-top: 32px;
+  width: 28px;
 }
 .product-table .arrow-right-red {
   position: absolute;
-  margin-left: 50px;
-  margin-top: 23px;
-  width: 19px;
+  margin-left: 66px;
+  margin-top: 32px;
+  width: 28px;
   transform: rotate(180deg);
 }
 .product-table .arrow-down-red {
   position: absolute;
-  margin-left: 27px;
-  margin-top: 46px;
-  width: 19px;
+  margin-left: 34px;
+  margin-top: 65px;
+  width: 28px;
   transform: rotate(270deg);
 }
 /* email-icon */
 .email-icon {
   position: absolute;
-  top: 1308px;
+  top: 1877px;
   right: 0px;
-  width: 54px;
-  height: 53px;
+  width: 78px;
+  height: 78px;
   cursor: pointer;
+  /* background-color: aqua !important; */
 }
 /* 包裝方式 */
 .package {
   position: absolute !important;
-  top: 1402px;
-  left: 43px;
-  width: 680px;
+  top: 2017px;
+  left: 62px;
+  width: 976px;
   height: 480px;
   /* background-color: brown; */
 }
 .package .arrow-left {
   position: absolute;
-  margin-left: 16px;
-  margin-top: 216px;
-  width: 29px;
+  margin-left: 23px;
+  margin-top: 311px;
+  width: 41px;
   transform: rotate(180deg);
 }
 .package .arrow-right {
   position: absolute;
-  right: 16px;
-  margin-top: 216px;
-  width: 29px;
+  right: 23px;
+  margin-top: 311px;
+  width: 41px;
 }
 .package .arrow-left-red {
   position: absolute;
-  margin-left: 16px;
-  margin-top: 216px;
-  width: 29px;
+  margin-left: 23px;
+  margin-top: 311px;
+  width: 41px;
 }
 .package .arrow-right-red {
   position: absolute;
-  right: 16px;
-  margin-top: 216px;
-  width: 29px;
+  right: 23px;
+  margin-top: 311px;
+  width: 41px;
   transform: rotate(180deg);
 }
 .package .arrow-gray:hover {
-  opacity: 0;
+  opacity: 0 !important;
 }
 .package .carousel-control-prev {
   opacity: 100 !important;
@@ -246,18 +226,18 @@
 /* product-pic */
 .product-pic {
   position: absolute !important;
-  top: 1995px;
-  left: 20px;
-  width: 675px;
+  top: 2866px;
+  left: 28px;
+  width: 958px;
   height: 438px;
   /* background-color: brown; */
 }
 .product-pic-small {
   position: absolute !important;
-  top: 2246px;
-  left: 550px;
-  width: 210px;
-  height: 144px;
+  top: 3225px;
+  left: 791px;
+  width: 291px;
+  height: 203px;
   background-image: url('../images/pic/產品應用-06.png');
   background-size: cover;
   background-position: top left;
@@ -265,36 +245,36 @@
 }
 .product-pic-control {
   position: absolute !important;
-  top: 2406px;
-  right: 18px;
+  top: 3458px;
+  right: 60px;
   width: 79px;
   /* background-color: brown; */
 }
 .product-pic-control .arrow-right {
   position: absolute;
-  margin-left: 32px;
-  margin-top: 4px;
-  width: 17px;
+  margin-left: 47px;
+  margin-top: 3px;
+  width: 23px;
 }
 .product-pic-control .arrow-left {
   position: absolute;
   margin-left: 0px;
-  margin-top: 4px;
-  width: 17px;
+  margin-top: 3px;
+  width: 23px;
   transform: rotate(180deg);
 }
 .product-pic-control .arrow-right-red {
   position: absolute;
-  margin-left: 32px;
-  margin-top: 4px;
-  width: 17px;
+  margin-left: 47px;
+  margin-top: 3px;
+  width: 23px;
   transform: rotate(180deg);
 }
 .product-pic-control .arrow-left-red {
   position: absolute;
   margin-left: 0px;
-  margin-top: 4px;
-  width: 17px;
+  margin-top: 3px;
+  width: 23px;
 }
 .product-pic-control .arrow-gray:hover {
   opacity: 0;
