@@ -38,5 +38,16 @@ $(document).ready(function() {
       $('.center-menu-mask').css('display', 'none');
     }
   );
+  $('.center-menu .row .col').click(function(index){
+    var targetId = $(this).data('go');
+    var target = $('#' + targetId);
+
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 100); // 800 毫秒的動畫時長
+    }
+console.log( $(this).data('go'))
+  })
 
 });

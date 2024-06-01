@@ -127,6 +127,9 @@
 .center-menu .btn {
   width: 100%;
 }
+.center-menu .col {
+  cursor: pointer;
+}
 
 /* product-banner */
 .product-table {
@@ -203,6 +206,11 @@
   /* background-color: aqua !important; */
 }
 /* 包裝方式 */
+#package-anchor {
+  position: absolute;
+  top: 1877px;
+  left: 0;
+}
 .package {
   position: absolute !important;
   top: 2017px;
@@ -247,6 +255,12 @@
   opacity: 100 !important;
 }
 /* product-pic */
+#product-anchor {
+  position: absolute;
+  top: 2715px;
+  left: 0;
+  background-color: brown;
+}
 .product-pic {
   position: absolute !important;
   top: 2866px;

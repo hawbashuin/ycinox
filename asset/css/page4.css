@@ -63,194 +63,72 @@
 .offcanvas-backdrop {
   background-color: #000 !important;
 }
-
-/* banner */
-.banner {
+/* 中間選單 */
+.center-menu {
   position: absolute;
-  width: 100%;
-  top: 66px;
-  left: 0;
-}
-/* img */
-.image-wrapper {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.image-zoom {
-  width: 100%;
-  transition: transform 5s ease;
-}
-
-.image-wrapper:hover .image-zoom {
-  transform: scale(1.2);
-}
-
-/* 關於允強了解更多 */
-.about-banner {
-  position: absolute;
-  top: 1073px;
-  left: 499px;
-  width: 154px;
-  height: 43px;
-  cursor: pointer;
-}
-.about-banner:hover {
-  /* opacity: 0; */
-  background-image: url(../images/icon/滑鼠移入後-了解更多button.png);
-  background-size: cover;
-  background-position: top left;
-  border-radius: 2px;
-}
-.about-banner::after {
-  position: absolute;
-  left: 154px;
-  content: '';
-  width: 100px;
-  height: 43px;
+  top: 1119px;
+  left: 134px;
+  width: 1202px;
+  height: 50px;
+  border-bottom: 2px solid #dddddd;
   background-color: #fff;
-  opacity: 0;
-}
-.about-banner:hover::after {
   opacity: 1;
 }
-/* 年份 */
-.since-number {
-  position: absolute;
-  top: 1195px;
-  left: 685px;
-  width: 300px;
-  /* color: #e03c31; */
-  font-size: 115px;
-  font-family: 'Kallisto Bold', serif;
-  text-align: right;
-  letter-spacing: 10px;
-}
-.since-number-mask {
-  position: absolute;
-  top: 1215px;
-  left: 0;
-  width: 720px;
-  height: 120px;
-  background-image: url(../images/pic/首頁關於區塊原圖含下方區塊.png);
-  background-size: cover;
-  background-position: top left;
-}
-.since-number-mask::after {
-  position: absolute;
-  left: 720px;
-  content: '';
-  width: 280px;
-  height: 120px !important;
-  height: 43px;
-  background-color: #fff;
-}
-
-/* 產品了解更多 */
-.product-read-more {
-  position: absolute;
-  top: 2093px;
-  left: 650px;
-  width: 154px;
-  height: 44px;
+.center-item {
+  margin-top: 2px;
+  height: 100%;
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -1px;
   cursor: pointer;
 }
-.product-read-more:hover {
-  /* opacity: 0; */
-  background-image: url(../images/icon/滑鼠移入後-了解更多button.png);
-  background-size: cover;
-  background-position: top left;
-  border-radius: 2px;
+.center-item:hover {
+  color: #e03c31;
+  border-bottom: 3px solid #e03c31;
 }
-.product-read-more::after {
+.center-item-1 {
   position: absolute;
-  left: 154px;
-  content: '';
-  width: 100px;
-  height: 43px;
-  background-color: #f4f4f4;
-  opacity: 0;
+  left: 243px;
 }
-.product-read-more:hover::after {
-  opacity: 1;
+.center-item-2 {
+  position: absolute;
+  left: 408px;
 }
+.center-item-3 {
+  position: absolute;
+  left: 585px;
+}
+.center-item-4 {
+  position: absolute;
+  left: 733px;
+}
+.center-item-5 {
+  position: absolute;
+  left: 866px;
+}
+
 /* product-banner */
-.product-banner {
+.product-table {
   position: absolute;
-  top: 2180px;
+  top: 1228px;
   left: 0;
   width: 100%;
-  height: 535px;
+  height: 484px;
+  /* background-color: bisque;
+  opacity: 0.5; */
 }
 .product-1 {
   position: absolute;
-  top: 36px;
-  left: 0;
-  width: 345px;
-  height: 460px;
-}
-.product-2 {
-  position: absolute;
-  top: 75px;
-  left: 375px;
-  width: 345px;
-  height: 460px;
-}
-.product-3 {
-  position: absolute;
-  top: 37px;
-  left: 750px;
-  width: 345px;
-  height: 460px;
-}
-.product-4 {
-  position: absolute;
-  top: 75px;
-  right: 0;
-  width: 345px;
-  height: 460px;
-}
-/* 產品文字與箭頭 */
-.product-text {
-  position: absolute;
-  top: 389px;
-  left: 38px;
-  color: #fff;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 26px;
-  letter-spacing: 2px;
-  opacity: 0;
-}
-.product-arrow {
-  position: absolute;
-  top: 390px;
-  left: 276px;
-  color: #fff;
-  font-size: 30px;
-  opacity: 0;
-}
-.product-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 345px;
-  height: 460px;
-  background-image: url(../images/pic/紅底hover.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  left: 138px;
+  width: 1198px;
+  height: 100%;
+  /* background-color: aquamarine;
+  opacity: 0.5; */
+  background-image: url(../images/pic/產品規格.png) !important;
   background-size: cover;
-  opacity: 0;
-}
-.product-mask:hover {
-  opacity: 0.8;
-}
-.product-mask:hover ~ .product-text,
-.product-mask:hover ~ .product-arrow {
-  opacity: 1;
+  background-position: top right;
+  background-color: transparent !important;
 }
 
 #btn-back-to-top {
@@ -263,7 +141,7 @@
 
 .certification {
   position: absolute;
-  top: 3536px;
+  top: 1790px;
   left: 375px;
   width: 1000px;
   height: 120px;

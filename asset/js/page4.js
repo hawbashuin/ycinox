@@ -3,7 +3,7 @@
 
 
 $(document).ready(function() {
-  
+  $('#center-item-1').addClass('hover');
 
   // 取得 back to top 按鈕
   let backToTopBtn = document.getElementById("btn-back-to-top");
