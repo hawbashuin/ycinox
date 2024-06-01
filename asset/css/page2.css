@@ -4,6 +4,29 @@
   left: 0;
 }
 
+.header {
+  margin-top: 36px !important;
+  margin-right: 4px !important;
+}
+
+/* 右邊側邊欄 */
+.offcanvas-end {
+  top: 107px !important;
+  border-left: 0 !important;
+  width: 730px !important;
+}
+
+.offcanvas {
+  background-image: url(../images/pic/主選單-06.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  /* background-color: transparent !important; */
+}
+.offcanvas-backdrop {
+  background-color: transparent !important;
+}
+
 /* banner */
 .banner-text-section {
   position: absolute;

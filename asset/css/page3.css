@@ -1,0 +1,403 @@
+@font-face {
+  font-family: 'Kallisto Bold';
+  src: url('../font/AnekBangla_SemiExpanded-Bold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  margin-top: 0px !important;
+  height: 69px;
+}
+
+/* 搜尋按鈕 */
+.search-btn {
+  margin-left: 270px !important;
+  width: 55px;
+  height: 100%;
+}
+
+/* 多語系按鈕 */
+.lang-btn {
+  /* margin-left: 5px !important; */
+  width: 55px;
+  height: 100%;
+}
+.lang-menu {
+  min-width: 7rem !important;
+}
+
+/* 選單按鈕 */
+.menu-btn {
+  margin-right: 0px !important;
+  width: 84px;
+  height: 100%;
+  z-index: 1047;
+}
+
+/* 右邊側邊欄 */
+.offcanvas-end {
+  top: 0px !important;
+  border-left: 0 !important;
+  width: 830px !important;
+}
+
+.offcanvas {
+  background-color: #fff !important;
+}
+.offcanvas-body {
+  width: 100% !important;
+  height: 100vh !important;
+  background-image: url(../images/pic/Megamenu1.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: transparent !important;
+}
+.offcanvas-backdrop {
+  background-color: #000 !important;
+}
+
+/* banner */
+.banner {
+  position: absolute;
+  width: 100%;
+  top: 66px;
+  left: 0;
+}
+/* img */
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-zoom {
+  width: 100%;
+  transition: transform 5s ease;
+}
+
+.image-wrapper:hover .image-zoom {
+  transform: scale(1.2);
+}
+
+/* 關於允強了解更多 */
+.about-banner {
+  position: absolute;
+  top: 1073px;
+  left: 499px;
+  width: 154px;
+  height: 43px;
+  cursor: pointer;
+}
+.about-banner:hover {
+  /* opacity: 0; */
+  background-image: url(../images/icon/滑鼠移入後-了解更多button.png);
+  background-size: cover;
+  background-position: top left;
+  border-radius: 2px;
+}
+.about-banner::after {
+  position: absolute;
+  left: 154px;
+  content: '';
+  width: 100px;
+  height: 43px;
+  background-color: #fff;
+  opacity: 0;
+}
+.about-banner:hover::after {
+  opacity: 1;
+}
+/* 年份 */
+.since-number {
+  position: absolute;
+  top: 1195px;
+  left: 685px;
+  width: 300px;
+  /* color: #e03c31; */
+  font-size: 115px;
+  font-family: 'Kallisto Bold', serif;
+  text-align: right;
+  letter-spacing: 10px;
+}
+.since-number-mask {
+  position: absolute;
+  top: 1215px;
+  left: 0;
+  width: 720px;
+  height: 120px;
+  background-image: url(../images/pic/首頁關於區塊原圖含下方區塊.png);
+  background-size: cover;
+  background-position: top left;
+}
+.since-number-mask::after {
+  position: absolute;
+  left: 720px;
+  content: '';
+  width: 280px;
+  height: 120px !important;
+  height: 43px;
+  background-color: #fff;
+}
+
+/* 產品了解更多 */
+.product-read-more {
+  position: absolute;
+  top: 2093px;
+  left: 650px;
+  width: 154px;
+  height: 44px;
+  cursor: pointer;
+}
+.product-read-more:hover {
+  /* opacity: 0; */
+  background-image: url(../images/icon/滑鼠移入後-了解更多button.png);
+  background-size: cover;
+  background-position: top left;
+  border-radius: 2px;
+}
+.product-read-more::after {
+  position: absolute;
+  left: 154px;
+  content: '';
+  width: 100px;
+  height: 43px;
+  background-color: #f4f4f4;
+  opacity: 0;
+}
+.product-read-more:hover::after {
+  opacity: 1;
+}
+/* product-banner */
+.product-banner {
+  position: absolute;
+  top: 2180px;
+  left: 0;
+  width: 100%;
+  height: 535px;
+}
+.product-1 {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 345px;
+  height: 460px;
+}
+.product-2 {
+  position: absolute;
+  top: 75px;
+  left: 375px;
+  width: 345px;
+  height: 460px;
+}
+.product-3 {
+  position: absolute;
+  top: 37px;
+  left: 750px;
+  width: 345px;
+  height: 460px;
+}
+.product-4 {
+  position: absolute;
+  top: 75px;
+  right: 0;
+  width: 345px;
+  height: 460px;
+}
+/* 產品文字與箭頭 */
+.product-text {
+  position: absolute;
+  top: 389px;
+  left: 38px;
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  letter-spacing: 2px;
+  opacity: 0;
+}
+.product-arrow {
+  position: absolute;
+  top: 390px;
+  left: 276px;
+  color: #fff;
+  font-size: 30px;
+  opacity: 0;
+}
+.product-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 345px;
+  height: 460px;
+  background-image: url(../images/pic/紅底hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+.product-mask:hover {
+  opacity: 0.8;
+}
+.product-mask:hover ~ .product-text,
+.product-mask:hover ~ .product-arrow {
+  opacity: 1;
+}
+
+/* footer-banner */
+.footer-banner {
+  position: absolute;
+  top: 2927px;
+  left: 0;
+  width: 100%;
+  height: 526px;
+  /* background-color: antiquewhite;
+  opacity: 0.2; */
+
+  background-image: url(../images/pic/ESG底圖.png);
+  background-size: cover;
+  background-position: top left;
+}
+.footer-banner-mask-1 {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  width: 50%;
+  height: 100%;
+  /* background-color: antiquewhite;
+  opacity: 0.2; */
+  /* background-image: url(../images/pic/ESG底圖.png);
+  background-size: cover;
+  background-position: top right; */
+}
+/* ESG 了解更多 */
+.footer-read-more {
+  position: absolute;
+  top: 360px;
+  left: 255px;
+  width: 154px;
+  height: 44px;
+  cursor: pointer;
+  background-image: url(../images/icon/滑鼠移入前-了解更多button.png);
+  background-size: cover;
+  background-position: top left;
+  border-radius: 2px;
+}
+.footer-read-more:hover {
+  /* opacity: 0; */
+  background-image: url(../images/icon/滑鼠移入後-了解更多button.png);
+  background-size: cover;
+  background-position: top left;
+  border-radius: 2px;
+}
+.footer-read-more::after {
+  position: absolute;
+  left: 154px;
+  content: '';
+  width: 100px;
+  height: 43px;
+  background-color: transparent;
+  opacity: 0;
+}
+.footer-read-more:hover::after {
+  opacity: 1;
+}
+.footer-icon {
+  width: 82px;
+  height: 110px;
+  /* background-color: rgb(39, 118, 161); */
+}
+.footer-icon img {
+  position: absolute;
+}
+.footer-icon img:first-child {
+  opacity: 0;
+  transition: opacity 0.3s ease; /* 添加過渡效果 */
+}
+
+.footer-icon:hover img:last-child {
+  opacity: 0;
+}
+
+.footer-icon:hover img:first-child {
+  opacity: 1;
+}
+.footer-icon-1 {
+  position: absolute;
+  top: 110px;
+  right: 471px;
+}
+
+.footer-icon-2 {
+  position: absolute;
+  top: 110px;
+  right: 260px;
+}
+.footer-icon-3 {
+  position: absolute;
+  top: 273px;
+  right: 471px;
+}
+.footer-icon-4 {
+  position: absolute;
+  top: 273px;
+  right: 260px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 36%;
+  right: 49px;
+  display: none;
+  height: 300px;
+}
+
+.certification {
+  position: absolute;
+  top: 3536px;
+  left: 375px;
+  width: 1000px;
+  height: 120px;
+  background-color: #fff;
+  /* opacity: 0.3;
+  border: 1px solid #000; */
+}
+.container {
+  display: flex;
+  white-space: nowrap;
+  width: 100%;
+  height: clamp(3em, 10vw, 6em);
+  overflow: hidden;
+  font-family: sans-serif;
+  /* max-width: 1450px !important; */
+}
+
+.loop-text {
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 0.25em;
+}
+
+.loop-text {
+  animation: loopText 10s infinite linear;
+}
+
+@keyframes loopText {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
