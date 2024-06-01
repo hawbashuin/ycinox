@@ -302,3 +302,11 @@
 .product-pic-control .arrow-gray:hover {
   opacity: 0;
 }
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 36%;
+  right: 49px;
+  display: none;
+  height: 300px;
+}

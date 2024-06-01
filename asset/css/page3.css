@@ -356,7 +356,7 @@
 #btn-back-to-top {
   position: fixed;
   bottom: 36%;
-  right: 49px;
+  right: 60px;
   display: none;
   height: 300px;
 }
@@ -371,7 +371,7 @@
   /* opacity: 0.3;
   border: 1px solid #000; */
 }
-.container {
+.cert-container {
   display: flex;
   white-space: nowrap;
   width: 100%;
