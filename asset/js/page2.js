@@ -2,7 +2,7 @@
 AOS.init();
 
 
-$(document).ready(function() {
+$(function() {
   // 取得 back to top 按鈕
   let backToTopBtn = document.getElementById("btn-back-to-top");
 

@@ -2,7 +2,7 @@
 // AOS.init();
 
 
-$(document).ready(function() {
+$(function() {
   function animateNumber() {
     let currentValue = 0;
     const targetValue = 1973;

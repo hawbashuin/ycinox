@@ -83,6 +83,10 @@
   letter-spacing: -1px;
   cursor: pointer;
 }
+.center-item-active {
+  color: #e03c31;
+  border-bottom: 3px solid #e03c31;
+}
 .center-item:hover {
   color: #e03c31;
   border-bottom: 3px solid #e03c31;
@@ -118,14 +122,77 @@
   /* background-color: bisque;
   opacity: 0.5; */
 }
-.product-1 {
+.product-item {
   position: absolute;
   left: 138px;
   width: 1198px;
   height: 100%;
-  /* background-color: aquamarine;
-  opacity: 0.5; */
+}
+.product-item-1 {
   background-image: url(../images/pic/產品規格.png) !important;
+  background-size: cover;
+  background-position: top right;
+  background-color: transparent !important;
+}
+.product-item-2 {
+  background-image: url(../images/pic/化學成份表.png) !important;
+  background-size: cover;
+  background-position: top right;
+  background-color: transparent !important;
+}
+.product-item-3 {
+  background-image: url(../images/pic/公差表.png) !important;
+  background-size: cover;
+  background-position: top right;
+  background-color: transparent !important;
+}
+.package,
+.product-pic {
+  /* position: absolute; */
+  width: 652px;
+  height: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carousel-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.package-control,
+.product-pic-control {
+  position: absolute;
+  top: 92px;
+  left: 731px;
+  width: 200px;
+  color: #fff;
+  font-size: 32px;
+}
+.package-control .bi-arrow-right-circle-fill,
+.product-pic-control .bi-arrow-right-circle-fill {
+  position: relative;
+  left: 14px;
+}
+.product-pic-small {
+  position: absolute;
+  top: 177px;
+  left: 731px;
+  width: 468px;
+  height: 306px;
+  background-image: url(../images/pic/產應用範圍-工業用管.png) !important;
   background-size: cover;
   background-position: top right;
   background-color: transparent !important;

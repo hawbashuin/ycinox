@@ -2,9 +2,29 @@
 // AOS.init();
 
 
-$(document).ready(function() {
-  $('#center-item-1').addClass('hover');
+$(function() {
+  $('.center-item-1').addClass('center-item-active');
+  $(".product-item").hide()
+  $(".product-item-1").show()
 
+  $('.center-menu .center-item').on({
+    click: function() {
+      console.log("mama")
+      $('.center-item').removeClass('center-item-active');
+      $(this).addClass('center-item-active');
+      $("#menu-active").val($(this).data('id'));
+      $(".product-item").hide();
+      let target =  $(this).data('item');
+      $('.'+target).show();
+      
+    }, mouseenter: function() {
+      $('.center-item').removeClass('center-item-active');
+      $(this).addClass('center-item-active');
+    }, mouseleave: function() {
+      // $('.center-item-1').addClass('center-item-active');
+    }
+  });
+  
   // 取得 back to top 按鈕
   let backToTopBtn = document.getElementById("btn-back-to-top");
 
