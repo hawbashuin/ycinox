@@ -70,21 +70,20 @@
   width: 100%;
   top: 66px;
   left: 0;
-}
-/* img */
-.image-wrapper {
-  width: 100%;
   overflow: hidden;
-  position: relative;
 }
 
-.image-zoom {
-  width: 100%;
+.owl-item {
+  overflow: hidden;
+}
+
+.owl-carousel .item img {
   transition: transform 5s ease;
+  transform-origin: center;
 }
 
-.image-wrapper:hover .image-zoom {
-  transform: scale(1.2);
+.owl-carousel .active img {
+  transform: scale(1.1);
 }
 
 /* 關於允強了解更多 */

@@ -48,33 +48,15 @@ $(function() {
     document.documentElement.scrollTop = 0;
   }
 
-  // console.log($('.owl-carousel').html())
-  // var owl = $('.owl-carousel');
-  // owl.owlCarousel({
-  //   items: 3,
-  //   loop: true,
-  //   margin: 10,
-  //   nav: true,
-  //   autoplay: true,
-  //   autoplayTimeout: 3000, // 每3秒自動播放下一張
-  //   animateIn: 'zoomIn', // 進場動畫為 zoomIn
-  //   animateOut: 'zoomOut' // 出場動畫為 zoomOut
-  // });
-  // function startZoomAnimation() {
-  //   console.log("123123")
-  //   $('.image-zoom').addClass('active');
-  // }
-
-  // function stopZoomAnimation() {
-  //   $('.image-zoom').removeClass('active');
-  // }
-
-  // // 每 5 秒自動開始放大動畫
-  // setInterval(startZoomAnimation, 1000);
-
-  // 動畫進行期間，停止自動播放
-  // $('.image-zoom').on('transitionend', function() {
-  //   stopZoomAnimation();
-  //   setTimeout(startZoomAnimation, 1000);
-  // });
+  $('#banner_owl').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    dots: false,
+    autoplayTimeout: 5000,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    smartSpeed: 450
+  });
+  
 });
