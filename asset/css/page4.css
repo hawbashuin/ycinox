@@ -63,6 +63,26 @@
 .offcanvas-backdrop {
   background-color: #000 !important;
 }
+
+/* banner */
+.banner {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  left: 0;
+  overflow: hidden;
+}
+.owl-item {
+  overflow: hidden;
+}
+.owl-carousel .item img {
+  transition: transform 5s ease;
+  transform-origin: center;
+}
+.owl-carousel .active img {
+  transform: scale(1.1);
+}
+
 /* 中間選單 */
 .center-menu {
   position: absolute;

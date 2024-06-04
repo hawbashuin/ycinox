@@ -50,4 +50,15 @@ $(function() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+  $('#banner_owl').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    dots: false,
+    autoplayTimeout: 5000,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    smartSpeed: 450
+  });
 });

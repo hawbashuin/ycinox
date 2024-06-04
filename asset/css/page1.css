@@ -22,11 +22,11 @@
 .offcanvas-end {
   top: 80px !important;
   border-left: 0 !important;
-  width: 730px !important;
+  width: 900px !important;
 }
 
 .offcanvas {
-  background-image: url(../images/pic/主選單-06.png) !important;
+  background-image: url(../images/pic/YC\ 主選單-06.png) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
@@ -34,6 +34,16 @@
 }
 .offcanvas-backdrop {
   background-color: transparent !important;
+}
+
+/* 多語系按鈕 */
+.lang-btn {
+  /* margin-left: 5px !important; */
+  width: 55px;
+  height: 100%;
+}
+.lang-menu {
+  min-width: 7rem !important;
 }
 
 /* banner */
@@ -65,9 +75,6 @@
 }
 .about-banner:hover {
   opacity: 0;
-}
-.about-banner-img {
-  /* width: 100%; */
 }
 
 /* product-banner */
